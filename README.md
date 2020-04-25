@@ -17,7 +17,7 @@ Initial csv files were imported from “Kaggle” and stored in our github Resou
 
 # Technical Overview
 Final Technical report summaries all the techniques and skills utilized during this ETL project
-ETLProject/Final Technical Report_Brewery.docx
+*ETLProject/master/Final Technical Report_Brewery.docx
 
 
 
