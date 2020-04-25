@@ -1,5 +1,6 @@
 # ETL Project
 # Impact of Brewery Trend on DUI
+Randy Dettmer, Evan Kamis, Ali Rizvi, Sumeet Dhawan
 
 ETL Proposal:	ETLProject/ETL Proposal.docx
 
