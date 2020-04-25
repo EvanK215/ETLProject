@@ -18,10 +18,6 @@ Initial csv files were imported from “Kaggle” and stored in our github Resou
 
 # Files in the repository:
 
-ETLProject/master/beerwork.ipynb
-ETLProject/master/Resources
-ETLProject/ master/Resources/DUI_beer_schema.sql
-ETLProject/master/Resources/All Files Data Model Diagram.png
-ETLProject/ master/Resources/DUI Beer Data Diagram.png
+ETLProject/master/beerwork.ipynb; ETLProject/master/Resources;  ETLProject/ master/Resources/DUI_beer_schema.sql; ETLProject/master/Resources/All Files Data Model Diagram.png; ETLProject/ master/Resources/DUI Beer Data Diagram.png
 
 
