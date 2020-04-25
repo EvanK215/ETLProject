@@ -4,30 +4,29 @@
 
 -- ETL project
 
-CREATE TABLE "DUI" (
+CREATE TABLE "dui_db" (
     "State" string   NULL,
     "DUI" int   NOT NULL,
     "Fatalities" int   NOT NULL,
     "Population" int   NOT NULL,
     "Sunday_Sales" string   NULL,
-    CONSTRAINT "pk_DUI" PRIMARY KEY (
+    CONSTRAINT "pk_dui_db" PRIMARY KEY (
         "State"
      )
 );
 
 CREATE TABLE "open_beer_db" (
-    "Name" string   NULL,
-    "id" int   NOT NULL,
+    "beer_name" string   NULL,
+    "beer_id" int   NOT NULL,
     "brewery_id" int   NOT NULL,
     "Style" string   NULL,
     "Category" string   NULL,
     "Brewer" string   NULL,
     "Address" string   NULL,
     "City" string   NULL,
-    "State" string   NULL,
-    "Country" string   NULL
+    "State" string   NULL
 );
 
 ALTER TABLE "open_beer_db" ADD CONSTRAINT "fk_open_beer_db_State" FOREIGN KEY("State")
-REFERENCES "DUI" ("State");
+REFERENCES "dui_db" ("State");
 
